@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Production build
+dist/
+
+# TypeScript build artifacts
+*.tsbuildinfo
+/vite.config.js
+/vite.config.d.ts
+/vite.config.js.map
+/vite.config.d.ts.map
+
+# Logs
+*.log
+
+# Local environment overrides
+.env.local
+.env.*.local
+
+# Editor and OS files
+.vs/
+.idea/
+.DS_Store
+Thumbs.db
